@@ -15,7 +15,10 @@ const fadeUp = {
 const tools = [
   { icon: Wind, emoji: "🌬️", title: "Breathing Exercise", description: "Calm your mind in 30 seconds", path: "/breathing", bg: "bg-calm-sky" },
   { icon: BookOpen, emoji: "📝", title: "Journal", description: "Write your thoughts privately", path: "/journal", bg: "bg-soft-peach" },
-  { icon: Users, emoji: "🧑‍🤝‍🧑", title: "Talk to Mentor", description: "Connect with someone who cares", path: "/dashboard", bg: "bg-soft-lavender" },
+  { icon: Users, emoji: "🏆", title: "Achievement Jar", description: "Celebrate your wins", path: "/achievements", bg: "bg-soft-pink" },
+  { icon: Users, emoji: "💡", title: "Peer Wisdom", description: "Advice from students like you", path: "/peer-wisdom", bg: "bg-soft-lavender" },
+  { icon: Wind, emoji: "📊", title: "Attendance Calculator", description: "Know where you stand", path: "/attendance", bg: "bg-soft-green" },
+  { icon: Users, emoji: "🤝", title: "Buddy Check-In", description: "Support each other", path: "/buddy", bg: "bg-calm-sky" },
 ];
 
 const Tools = () => {

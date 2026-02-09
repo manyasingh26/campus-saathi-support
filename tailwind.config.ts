@@ -74,6 +74,11 @@ export default {
           lavender: "hsl(var(--lavender))",
           pink: "hsl(var(--soft-pink))",
         },
+        celebration: {
+          yellow: "hsl(var(--warm-yellow))",
+          gold: "hsl(var(--warm-gold))",
+          DEFAULT: "hsl(var(--celebration))",
+        },
       },
       boxShadow: {
         soft: "var(--shadow-soft)",

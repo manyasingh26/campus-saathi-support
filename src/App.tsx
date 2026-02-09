@@ -11,6 +11,10 @@ import Journal from "./pages/Journal";
 import Tools from "./pages/Tools";
 import Profile from "./pages/Profile";
 import Emergency from "./pages/Emergency";
+import AchievementJar from "./pages/AchievementJar";
+import PeerWisdom from "./pages/PeerWisdom";
+import AttendanceCalc from "./pages/AttendanceCalc";
+import BuddyCheckIn from "./pages/BuddyCheckIn";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +34,10 @@ const App = () => (
           <Route path="/tools" element={<Tools />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/emergency" element={<Emergency />} />
+          <Route path="/achievements" element={<AchievementJar />} />
+          <Route path="/peer-wisdom" element={<PeerWisdom />} />
+          <Route path="/attendance" element={<AttendanceCalc />} />
+          <Route path="/buddy" element={<BuddyCheckIn />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
