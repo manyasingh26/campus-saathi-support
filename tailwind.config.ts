@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        nunito: ['Nunito', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +60,25 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        calm: {
+          sky: "hsl(var(--calm-sky))",
+          blue: "hsl(var(--calm-blue))",
+        },
+        warm: {
+          orange: "hsl(var(--warm-orange))",
+          "orange-hover": "hsl(var(--warm-orange-hover))",
+        },
+        soft: {
+          peach: "hsl(var(--soft-peach))",
+          green: "hsl(var(--gentle-green))",
+          lavender: "hsl(var(--lavender))",
+          pink: "hsl(var(--soft-pink))",
+        },
+      },
+      boxShadow: {
+        soft: "var(--shadow-soft)",
+        card: "var(--shadow-card)",
+        hover: "var(--shadow-hover)",
       },
       borderRadius: {
         lg: "var(--radius)",
