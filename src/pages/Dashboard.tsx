@@ -15,9 +15,9 @@ const moods = [
 ];
 
 const quickActions = [
-  { emoji: "🌬️", title: "30-sec Breathing", bg: "bg-calm-sky" },
-  { emoji: "📝", title: "Write in Journal", bg: "bg-soft-peach" },
-  { emoji: "🧑‍🤝‍🧑", title: "Talk to Mentor", bg: "bg-soft-lavender" },
+  { emoji: "🌬️", title: "30-sec Breathing", bg: "bg-calm-sky", path: "/breathing" },
+  { emoji: "📝", title: "Write in Journal", bg: "bg-soft-peach", path: "/journal" },
+  { emoji: "🧑‍🤝‍🧑", title: "Talk to Mentor", bg: "bg-soft-lavender", path: "/profile" },
 ];
 
 const fadeUp = {
